@@ -19,6 +19,16 @@ To run this app you need to run both the backend and the frontend folder at the 
 
 ## Backend
 
+### Add a ```.env``` file
+For more info on ```DATABASE_URL``` check [the prisma documentation](https://www.prisma.io/docs/orm/reference/connection-urls)
+```javascript
+DATABASE_URL=  // connection string to the database for prisma
+PORT=            // the port to run the app
+JWT_SECRET=      // secret key for jwt
+NODE_ENV=development        // development or production
+```
+or refer to ```.env.example```
+
 ### Change to backend directory
 
 ```bash
