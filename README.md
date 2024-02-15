@@ -6,6 +6,7 @@
 - [Prisma ORM](https://www.prisma.io/)
 - [Next JS](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Cloudinary](https://cloudinary.com/)
 
 ## Clone the repository
 
@@ -25,7 +26,12 @@ For more info on ```DATABASE_URL``` check [the prisma documentation](https://www
 DATABASE_URL=  // connection string to the database for prisma
 PORT=            // the port to run the app
 JWT_SECRET=      // secret key for jwt
-NODE_ENV=development        // development or production
+
+// Cloudinary
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+CLOUDINARY_URL=
 ```
 or refer to ```.env.example```
 
